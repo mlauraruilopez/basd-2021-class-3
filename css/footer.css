@@ -1,0 +1,21 @@
+.footer-box{
+    background-color:rgb(60, 60, 145);
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+}
+.footer-box a{
+    color: #bbb;
+    text-decoration: none;
+}
+#subs-foot{
+    font-family: "Oswald";
+    font-size: 18px;
+    text-align: center;
+}
