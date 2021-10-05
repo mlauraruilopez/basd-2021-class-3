@@ -1,0 +1,152 @@
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-color: #eb5160;
+    color: #dfe0e2;
+    min-height: 90px;
+    border-bottom: 3px solid #071013;
+  }
+  
+  header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  header ul {
+    display: none;
+  }
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color:#5e7c7c;
+    border-botto: 1px solid blue;
+}
+
+
+h1{
+    font-size: 2em;
+    color:#e9d39c
+}
+
+nav {
+    display: none;
+}
+
+.burguer{
+    display: block;
+    background-color: #eb5160;
+    border-radius: 3px;
+    border: 1px solid #071013;
+  }
+  
+  .burguer{
+    width: 25px;
+    height: 3px;
+    background-color: #dfe0e2;
+    margin: 6px 0;
+  }
+#menuIcon{
+    justify-content: flex-end;
+}
+/*global container*/
+
+main {
+    background-color:white;
+}
+.container {
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.container_Heading-New{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container_Heading-New img{
+  max-width:100%;
+}
+
+
+
+/*boxes*/
+.box {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #AAAAAA;
+  }
+   
+  .box article{ 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box img{
+    max-width: 80%;
+  }
+  
+  
+ 
+  
+#boxes {
+    margin-top: 20px;
+}
+
+
+footer{
+    background-color: hsl(200, 3%, 37%);
+    color:#202e20;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    padding: 5% 3%;
+
+@media screen and (min-width: 768px) {
+    header {
+        justify-content: space-around;
+        background-color: aqua;
+    }
+
+    #menuIcon {
+        display: none;
+    }
+    .burguer{
+        display: none;
+      }
+   
+    
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #5f5d5a;
+    }
+    
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    header {
+        background-color:#b0c0c0;
+    }
+}

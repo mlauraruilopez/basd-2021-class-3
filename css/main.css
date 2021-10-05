@@ -9,6 +9,6 @@ main{
 }
 .boxes{
   box-sizing:content-box;
-  width: fit-content;
+  width:30%;
     
 }
